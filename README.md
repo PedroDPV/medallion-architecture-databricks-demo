@@ -14,21 +14,21 @@ Gold layer: Silver data is aggregated into a business-ready table with daily rev
 
 ## Project structure
 
-src/config.py: environment based configuration with no hardcoded secrets.
+`src/config.py`: environment based configuration with no hardcoded secrets.
 
-src/data_generator.py: synthetic order data generator.
+`src/data_generator.py`: synthetic order data generator.
 
-src/bronze_layer.py: Bronze ingestion logic.
+`src/bronze_layer.py`: Bronze ingestion logic.
 
-src/silver_layer.py: Silver cleaning and validation logic.
+`src/silver_layer.py`: Silver cleaning and validation logic.
 
-src/gold_layer.py: Gold aggregation logic.
+`src/gold_layer.py`: Gold aggregation logic.
 
-src/pipeline.py: orchestrates the full Bronze to Silver to Gold run.
+`src/pipeline.py`: orchestrates the full Bronze to Silver to Gold run.
 
 tests: unit tests for the synthetic data generator.
 
-SECURITY.md: security practices applied in this demo.
+`SECURITY.md`: security practices applied in this demo.
 
 ## Running locally
 
